@@ -1,0 +1,266 @@
+/*Shared styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.merriweather-FiraSans {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/*Nav bar styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+nav button {
+    height: 52px;
+    width: 116px;
+    color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+nav h1 {
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+/*Header section styles*/
+header {
+    background-color: #C6E4D6;
+    height: 560px;
+    width: 1280px;
+    border-radius: 24px;
+    margin: 0px auto;
+    /*Automatic space between left and right side*/
+    display: flex;
+    /*it's takes the elements into two sides*/
+    justify-content: space-between;
+    /*it's takes the elements into two sides*/
+    align-items: center;
+    /*It's takes the elements into vertically center*/
+}
+
+.leftsection {
+    width: 48%;
+    padding: 117.5px 60px;
+}
+
+.rightsection {
+    width: 48%;
+}
+
+.leftsection p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+
+.leftsection h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.leftsection button {
+    height: 56px;
+    width: 270px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.rightsection img {
+    height: 400px;
+    width: 474.03px;
+}
+
+/*Card section styles*/
+#card-heading {
+    width: 1280px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.card-container {
+    height: 324px;
+    width: 1280px;
+    display: flex;
+    margin: 0px auto;
+    gap: 24px;
+}
+
+.card {
+    height: 244px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 24px;
+    border: 2px;
+    box-shadow: 0px 4px 4px 0px #000000;
+}
+
+.card img {
+    height: 64px;
+    width: 64px;
+    background-color: #FFFFFF;
+}
+
+.card h6 {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #0E0E0E;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0E0E0E;
+}
+
+/*Vision section styles*/
+.vision-section {
+    max-width: 1280px;
+    max-height: 765px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.vision-section h3 {
+    font-size: 40px;
+    font-weight: 700px;
+    color: #0E0E0E;
+}
+
+.vision-section p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0E0E0E;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.visions-card {
+    height: 325px;
+    width: 1280px;
+    display: flex;
+    gap: 24px;
+}
+.visions-card img{
+    height: 64px;
+    width: 64px;
+}
+.visions-card h6{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #0E0E0E;
+}
+.visions-card p{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.first-visions-card {
+    height: 260px;
+    width: 410px;
+    background-color: #81B4FC;
+    border-radius: 16px;
+    padding: 32px;
+}
+.first-visions-card button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.second-visions-card {
+    height: 260px;
+    width: 410px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+
+}
+.second-visions-card button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.third-visions-card {
+    height: 260px;
+    width: 410px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+.third-visions-card button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.last-vision-section{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    box-shadow: 0px 2px 2px 0px;
+}
+.last-vision-section h6{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #0E0E0E;
+}
+/*Opinion section styles*/
+.opinion-section{
+    max-height: 481px;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.opinion-section h3{
+    font-size: 40px;
+    font-weight: 600px;
+    color: #0E0E0E;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.opinion-section table{
+    border-radius: 16px;
+    padding: 32px;
+    margin: 0px auto;
+}
+.opinion-section table th{
+    background-color: #C6E4D6;
+    max-height: 48px;
+    max-width: 1216px;
+    padding: 24px;
+}
+.opinion-section table td{
+    max-height: 48px;
+    max-width: 1232px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600px;
+}
