@@ -226,7 +226,7 @@ header {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: left top;
-    box-shadow: 0px 2px 2px 0px;
+    box-shadow: 0px 0px 0px 0px;
 }
 .last-vision-section h6{
     font-size: 20px;
@@ -250,12 +250,18 @@ header {
     border-radius: 16px;
     padding: 32px;
     margin: 0px auto;
+    width: 90%;
+    padding: 320px;
+    border: 2px solid gray;
+    border-collapse: collapse;
 }
 .opinion-section table th{
     background-color: #C6E4D6;
     max-height: 48px;
     max-width: 1216px;
     padding: 24px;
+    border: 2px solid gray;
+
 }
 .opinion-section table td{
     max-height: 48px;
@@ -263,4 +269,192 @@ header {
     padding: 24px;
     font-size: 16px;
     font-weight: 600px;
+    border: 2px solid gray;
 }
+.opinion-section table td button{
+   width: 152px;
+   height: 44px;
+   background-color: #C6E4D6 ;
+   border-radius: 4px;
+   font-size: 16px;
+   font-weight: 500px;
+}
+/*Recent news section styles*/
+.recentnews-parent{
+    max-width: 1280px;
+    max-height: 1406px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.recentnews-parent h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.recentnews-parent p{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 12px;
+    color: #0E0E0E;
+}
+.recentnews-child .satelite{
+    height: 306;
+    width: 408px;
+    border-radius: 24px;
+    margin-right: 32px;
+}
+.recentnews-parent .firstpara{
+    margin-bottom: 32px;
+}
+.recentnews-child{
+    display: flex;
+    padding: 48px;
+}
+.recentnews-child-secondinner{
+    display: flex;
+}
+.recentnews-child-secondinner p{
+   margin-right: 32px;
+}
+.recentnews-child-firstinner .aljazeera{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.recentnews-child-firstinner h3{
+    font-size: 32px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.recentnews-child button{
+    height: 48px;
+    width: 139px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+/*Donate section styles*/
+.donate-parent{
+    max-width: 1280px;
+    max-height: 464px;
+    margin: 0px auto;
+}
+.donate-parent h3{
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+}
+.donate-parent .para{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+.donate-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.donate-child p{
+    max-height: 88px;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0px 4px  4px 0px;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.donate-parent input{
+    height: 64px;
+    width: 1032px;
+    border-radius: 16px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    box-shadow: 0px 4px 4px 0px;
+}
+.donate-parent button{
+    height: 56px;
+    width: 151px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 0px auto;
+    display: block;
+    align-items: center;
+    margin-bottom: 80px;
+}
+/*Subscribe section styles*/
+.Subscribe{
+    width: 1180px;
+    height: 315px;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+
+}
+.Subscribe h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.Subscribe p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+.textbutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+.Subscribe input{
+    height: 55px;
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+.Subscribe button{
+    height: 56px;
+    width: 151px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 24px;
+}
+/*Footer styles*/
+footer{
+    width: 1280px;
+    margin: 0px auto;
+    text-align: center;
+}
+footer p{
+    font-size: 32px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+.footerimage img{
+    height: 24px;
+    width: 24px;
+}
+
